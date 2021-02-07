@@ -42,6 +42,12 @@ INSTALLED_APPS = [
 ]
 
 CORS_ORIGIN_ALLOW_ALL = True
+...
+
+STREAM_API_KEY = 'vqqge72pd4nt'
+STREAM_API_SECRET = 'yg58vctaa9cwuyqwzdp3mhrgujv5mjkw7u7vgm7h3baejs3587frn9xq34eezkbu'
+
+...
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
